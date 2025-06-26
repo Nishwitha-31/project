@@ -4,6 +4,7 @@ import Navbar from '../components/navBar';
 import AboutSection from '../components/AboutUs'; // ← Import here
 import backgroundImage from '../assets/image.png';
 import TracksSection from '../components/TracksSection'; 
+import PrizesRewardsSection from '../components/PrizeMoney';
 
 const HackathonLandingPage = () => {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -73,6 +74,8 @@ const HackathonLandingPage = () => {
       <AboutSection />
       {/*TrackSection*/}
        <TracksSection />
+      {/* Prizes and Rewards Section */}
+      <PrizesRewardsSection />
     </>
   );
 };

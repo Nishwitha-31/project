@@ -6,6 +6,11 @@ import AboutSection from '../components/AboutUs';
 import backgroundImage from '../assets/image.png';
 import TracksSection from '../components/TracksSection';
 import PrizesRewardsSection from '../components/PrizeMoney';
+import Judges from '../components/judges'; // Assuming you have a Judges component
+import Speaker from '../components/speaker'; // Assuming you have a Speaker component
+import Scheduling from '../components/scheduling'; // Assuming you have a Scheduling component
+import Workshop from '../components/workshop'; // Assuming you have a Workshop component
+import Partners from '../components/partners'; // Assuming you have a Partners component
 
 const HackathonLandingPage = () => {
   const navigate = useNavigate(); 
@@ -97,6 +102,14 @@ const HackathonLandingPage = () => {
 
       {/* Prizes and Rewards Section */}
       <PrizesRewardsSection />
+      <Judges />
+      <Speaker />
+      <Scheduling />
+      <Workshop />
+      <Partners />
+
+      {/* Footer Section */}
+    
     </>
   );
 };

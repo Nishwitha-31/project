@@ -29,7 +29,7 @@ const PrizesRewardsSection = () => {
           alt="Prize Podium"
           style={{
             width: '100%',
-            maxWidth: '500px',
+            maxWidth: '800px',
             height: 'auto',
             borderRadius: '20px',
             boxShadow: '0 8px 24px rgba(0, 0, 0, 0.5)',

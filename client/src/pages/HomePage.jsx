@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/navBar';
-import AboutSection from '../components/AboutUs'; // ← Import here
+import AboutSection from '../components/AboutUs';
 import backgroundImage from '../assets/image.png';
-import TracksSection from '../components/TracksSection'; 
+import TracksSection from '../components/TracksSection';
 import PrizesRewardsSection from '../components/PrizeMoney';
 
 const HackathonLandingPage = () => {
+  const navigate = useNavigate(); 
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   useEffect(() => {
@@ -53,10 +55,27 @@ const HackathonLandingPage = () => {
           </h4>
 
           <div className="d-flex justify-content-center gap-3 mt-4 flex-wrap">
-            <button className="btn btn-outline-light px-4 py-2" style={{ backgroundColor: '#b04cff', borderRadius: '10px', fontWeight: 'bold' }}>
+            <button
+              className="btn btn-outline-light px-4 py-2"
+              onClick={() => navigate('/register')} // ✅ Correct navigation
+              style={{
+                backgroundColor: '#b04cff',
+                borderRadius: '10px',
+                fontWeight: 'bold',
+              }}
+            >
               Register Now
             </button>
-            <button className="btn btn-outline-light px-4 py-2" style={{ borderColor: '#b04cff', color: '#b04cff', borderRadius: '10px', fontWeight: 'bold' }}>
+
+            <button
+              className="btn btn-outline-light px-4 py-2"
+              style={{
+                borderColor: '#b04cff',
+                color: '#b04cff',
+                borderRadius: '10px',
+                fontWeight: 'bold',
+              }}
+            >
               View Challenges
             </button>
           </div>
@@ -72,8 +91,10 @@ const HackathonLandingPage = () => {
 
       {/* Add About Section Below Hero */}
       <AboutSection />
-      {/*TrackSection*/}
-       <TracksSection />
+
+      {/* Track Section */}
+      <TracksSection />
+
       {/* Prizes and Rewards Section */}
       <PrizesRewardsSection />
     </>

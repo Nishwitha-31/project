@@ -11,6 +11,8 @@ import Speaker from '../components/speaker'; // Assuming you have a Speaker comp
 import Scheduling from '../components/scheduling'; // Assuming you have a Scheduling component
 import Workshop from '../components/workshop'; // Assuming you have a Workshop component
 import Partners from '../components/partners'; // Assuming you have a Partners component
+import Footer from '../components/Fottor'; // Assuming you have a Footer component
+import { FaOtter } from 'react-icons/fa6';
 
 const HackathonLandingPage = () => {
   const navigate = useNavigate(); 
@@ -107,9 +109,7 @@ const HackathonLandingPage = () => {
       <Scheduling />
       <Workshop />
       <Partners />
-
-      {/* Footer Section */}
-    
+      <Footer />
     </>
   );
 };

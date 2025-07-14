@@ -21,6 +21,7 @@ const Footer = () => {
           <p className="text-muted" style={{ maxWidth: '500px' }}>
             Subscribe now to unlock latest updates, insider tips, and special offers directly to your inbox.
           </p>
+          
           <form className="d-flex flex-wrap gap-2">
             <input
               type="email"

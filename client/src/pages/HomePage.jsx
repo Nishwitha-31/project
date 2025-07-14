@@ -9,7 +9,6 @@ import PrizesRewardsSection from '../components/PrizeMoney';
 import Judges from '../components/judges'; // Assuming you have a Judges component
 import Speaker from '../components/speaker'; // Assuming you have a Speaker component
 import Scheduling from '../components/scheduling'; // Assuming you have a Scheduling component
-import Workshop from '../components/workshop'; // Assuming you have a Workshop component
 import Partners from '../components/partners'; // Assuming you have a Partners component
 import Footer from '../components/Fottor'; // Assuming you have a Footer component
 import { FaOtter } from 'react-icons/fa6';
@@ -99,15 +98,18 @@ const HackathonLandingPage = () => {
       {/* Add About Section Below Hero */}
       <AboutSection />
       {/* Track Section */}
+      <div id="tracks" style={{ backgroundColor: '#0c0624', padding: '60px 20px' }}>
       <TracksSection />
+      </div>
       {/* Prizes and Rewards Section */}
       <PrizesRewardsSection />
       <Judges />
       <Speaker />
       <Scheduling />
-      <Workshop />
       <Partners />
+      <div id='contact' style={{ height: '100px', backgroundColor: '#0c0624' }}>
       <Footer />
+      </div>
     </>
   );
 };

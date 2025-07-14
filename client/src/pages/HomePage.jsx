@@ -98,10 +98,8 @@ const HackathonLandingPage = () => {
 
       {/* Add About Section Below Hero */}
       <AboutSection />
-
       {/* Track Section */}
       <TracksSection />
-
       {/* Prizes and Rewards Section */}
       <PrizesRewardsSection />
       <Judges />
@@ -113,5 +111,4 @@ const HackathonLandingPage = () => {
     </>
   );
 };
-
 export default HackathonLandingPage;

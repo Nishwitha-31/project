@@ -21,13 +21,13 @@ const Navbar = () => {
         <img
           src={icon}
           alt="Hackathon Icon"
-          style={{ width: '130px', height: '40px', objectFit: 'contain' }}
+          style={{ width: '130px', height: '70px', objectFit: 'contain' }}
         />
       </a>
 
       {/* Nav Links */}
       <div className="d-flex gap-4">
-        <a href="#home" className="text-white text-decoration-none">HOME</a>
+        <a href="/" className="text-white text-decoration-none">HOME</a>
         <a href="#tracks" className="text-white text-decoration-none">EVENT</a>
         <a href="#contact" className="text-white text-decoration-none">CONTACT US</a>
         <a href="/sponsor" className="text-white text-decoration-none">SPONSOR</a>

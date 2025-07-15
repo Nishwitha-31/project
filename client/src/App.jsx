@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import HomePage from './pages/HomePage';
 import RegisterPage from './pages/RegisterPage';
+import SPONSORPage from './pages/SPONSOR';
 
 const router = createBrowserRouter([
   {
@@ -12,6 +13,10 @@ const router = createBrowserRouter([
   {
     path: '/register', 
     element: <RegisterPage />,
+  },
+  {
+    path: '/sponsor',
+    element: <SPONSORPage />,
   }
   
 ]);

@@ -79,7 +79,7 @@ const TeamSection = () => {
         </h2>
 
         <h3 style={{ color: '#f946ff', fontWeight: '700', marginBottom: '20px' }}>CORE MEMBERS</h3>
-        <div className="row justify-content-center mb-5">
+        <div className="row justify-content-center mb-5" style={{fontFamily: 'Kufam'}}>
           {teamData.coreMembers.map((person, idx) => (
             <TeamCard key={`core-${idx}`} person={person} />
           ))}

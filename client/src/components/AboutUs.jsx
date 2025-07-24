@@ -13,6 +13,7 @@ const AboutSection = () => {
       {/* Centered Title and Paragraph */}
       <div className="container text-center mb-5">
         <h2 style={{ color: '#d633ff', fontWeight: '900', fontSize: '72px',fontfamily: 'Kufam'}}>ABOUT US</h2>
+        </div>
         <p
           style={{
             color: '#00e6f6',
@@ -21,26 +22,26 @@ const AboutSection = () => {
             maxWidth: '800px',
             margin: '20px auto 0',
             fontfamily: 'Kufam',
+            textAlign: 'left',
           }}
         >
-          Hack the Future 2025 is a 36-hour virtual/in-person hackathon where coders,
-          designers, and creators from around the world come together to build
-          cutting-edge solutions. Whether you're a beginner or a pro, this is your stage
-          to innovate.
+         Hack the Future 2025 is a 36-hour hybrid hackathon organized by CodeSurfers, bringing together coders, designers, tech enthusiasts, and innovators from around the globe to create groundbreaking technology solutions that shape the future.
+
+Our mission is to cultivate a global ecosystem of innovation by empowering individuals of all skill levels to collaborate, experiment, and build impactful prototypes that address real-world challenges.
+
+Hack the Future 2025, hosted in a virtual and on-site format, invites participants to co-create solutions across domains such as sustainability, education, healthcare, and future technologies — leveraging tools like cloud computing, AI, Web3, and more.
+
+The hackathon serves as a platform for students, professionals, designers, and developers to join forces, explore ideas, and transform bold concepts into actionable projects. Through live mentorship, interactive workshops, and mini challenges, participants will gain hands-on experience, build strong networks, and explore pathways to launch their ideas globally.
+
         </p>
-      </div>
 
       {/* Icons + Box Row */}
       <div className="container d-flex flex-column flex-md-row align-items-start justify-content-between gap-4">
         {/* Feature List */}
         <div className="mb-4" style={{ maxWidth: '600px', fontSize: '24px', lineHeight: '1.8' }}>
-          <ul style={{ listStyleType: 'none', padding: 0 }}>
-            <li>💡 10+ Problem Statements</li>
-            <li>🛡️ Prizes Worth ₹5,00,000</li>
-            <li>🟣 Open to All (Students & Professionals)</li>
-            <li>📡 Workshops & Mentorship</li>
-            <li>🔀 Hybrid Mode (Join Online or Onsite – Delhi)</li>
-          </ul>
+          <p style={{ listStyleType: 'none', padding: 0 }}>
+            “Hack the Future” empowers global innovators to design inclusive, scalable, and forward-thinking tech solutions. Participants will collaborate across time zones using cutting-edge tools, tackling pressing problems with creativity and purpose. The event is designed to be beginner-friendly, expert-driven, and deeply impact-focused — turning ideas into ventures that can thrive beyond the hackathon.”
+          </p>
         </div>
 
         {/* Right Box */}

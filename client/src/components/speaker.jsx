@@ -80,15 +80,7 @@ const SpeakerCard = ({ name, title, company, linkedin }) => (
 const SpeakersSection = () => (
   <div style={styles.section}>
     <h2 style={styles.title}>OUR SPEAKERS</h2>
-
     <h3 style={styles.subTitle}>TECHNICAL SPEAKERS</h3>
-    <div style={styles.grid}>
-      {speakers.technical.map((speaker, idx) => (
-        <SpeakerCard key={`tech-${idx}`} {...speaker} />
-      ))}
-    </div>
-
-    <h3 style={styles.subTitle}>GOVT. CXO SPEAKERS</h3>
     <div style={styles.grid}>
       {speakers.cxo.map((speaker, idx) => (
         <SpeakerCard key={`cxo-${idx}`} {...speaker} />

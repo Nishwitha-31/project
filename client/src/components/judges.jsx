@@ -17,18 +17,16 @@ import tanish from '../organizers/N.TANISH.png';
 const teamData = {
   coreMembers: [
     { name: 'V. Prathibha Reddy', role: 'Organiser', image: pratheesha },
-    { name: 'S. Ritwik Pranash Reddy', role: 'Co-Organiser', image: ritwik },
+    { name: 'S.Rithwik Pranash Reddy', role: 'Co-Organiser', image: ritwik },
   ],
   teamMembers: [
-    { name: 'Jeshma Reddy Kesari', role: 'Content Team', image: jeshma },
+    { name: 'Jishitha Reddy Kesari', role: 'Content Team', image: jeshma },
     { name: 'Ch Manideep', role: 'Digital Marketer', image: manideep },
-    { name: 'A. Gunadeep', role: 'Marketing & Technical', image: gunadeep },
+    { name: 'M. Sai Eshwar', role: 'Markating Manager', image: rajeshwar },
     { name: 'SHIVADITYA RAJESH GANGONE ', role: 'Logistics Head', image: bhagyaraj },
     { name: 'P. Rohit', role: 'Tech Lead', image: rohit },
     { name: 'SRIKARI CHAKINAM ', role: 'Content Writer', image: spurthi },
-    { name: 'M. Sai Eshwar', role: 'Support Operations', image: rajeshwar },
     { name: 'Sandeep', role: 'PR Coordinator & Media Team', image: sandeep },
-    { name: 'Yamini', role: 'Hospitality', image: yamini },
     { name: 'N. Tanish', role: 'Co-Tech Lead', image: tanish },
   ]
 };

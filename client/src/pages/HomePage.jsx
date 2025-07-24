@@ -57,13 +57,14 @@ const HackathonLandingPage = () => {
             BUILD.<br />BREAK.<br />INNOVATE.
           </h1>
           <h4 className="text-info mt-4">
-            Join the Ultimate 36-Hour Hackathon Experience <br />– June 20–22, 2025
+            Join us at the most awaited, ultimate 36-Hour Hackathon Experience on the <br/> 13th - 14th of September.
+
           </h4>
 
           <div className="d-flex justify-content-center gap-3 mt-4 flex-wrap">
             <button
               className="btn btn-outline-light px-4 py-2"
-              onClick={() => navigate('/register')} // ✅ Correct navigation
+              onClick={() => navigate('/')} // ✅ Correct navigation
               style={{
                 backgroundColor: '#b04cff',
                 borderRadius: '10px',
@@ -82,7 +83,7 @@ const HackathonLandingPage = () => {
                 fontWeight: 'bold',
               }}
             >
-              View Challenges
+              Learn More
             </button>
           </div>
 

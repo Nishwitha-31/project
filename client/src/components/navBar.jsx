@@ -30,9 +30,9 @@ const Navbar = () => {
         <a href="/" className="text-white text-decoration-none">HOME</a>
         <a href="#tracks" className="text-white text-decoration-none">EVENT</a>
         <a href="#contact" className="text-white text-decoration-none">CONTACT US</a>
-        <a href="/sponsor" className="text-white text-decoration-none">SPONSOR</a>
         <a href="/faq" className="text-white text-decoration-none">FAQ</a>
         <a href="#about" className="text-white text-decoration-none">ABOUT US</a>
+        <button className="text-white text-decoration-none">Rigistration</button>
       </div>
     </nav>
   );
